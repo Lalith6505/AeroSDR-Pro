@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AeroSDR Pro — ADS-B Flight & Marine AIS SDR Radar</title>
+  <meta name="description" content="Transform your Android phone or tablet into a standalone ADS-B 1090 MHz flight radar and Marine AIS 162 MHz transponder station via USB RTL-SDR.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="assets/icon_512.png">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <a href="#" class="nav-brand">
+      <img src="assets/icon_512.png" alt="AeroSDR Pro Icon">
+      AEROSDR <span>PRO</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#screenshots">Screenshots</a>
+      <a href="#specs">Specifications</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="#download" class="btn-primary">Get on Google Play ($8.99)</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero">
+      <div class="badge">TACTICAL SOFTWARE DEFINED RADIO</div>
+      <h1>Air & Marine Radar <span>Direct from the Sky</span></h1>
+      <p>
+        AeroSDR Pro connects to any USB RTL-SDR dongle via USB OTG to directly capture 1090 MHz Mode-S/ADS-B avionics broadcasts and 162 MHz Marine AIS transponders. Track commercial airliners, general aviation, cargo vessels, and military traffic without cellular data or internet connectivity.
+      </p>
+      
+      <div class="hero-actions">
+        <a href="#download" class="btn-primary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186c-.193-.11-.31-.322-.31-.56V2.374c0-.238.117-.45.31-.56zM15.207 13.414l2.193 2.193-11.83 6.786 9.637-8.979zm0-2.828L5.57 1.607l11.83 6.786-2.193 2.193zm1.414 1.414l3.535-2.028c.677-.388.677-1.026 0-1.414l-3.535-2.028-2.121 2.121 2.121 2.121v.228z"/></svg>
+          Google Play Store ($8.99)
+        </a>
+        <a href="privacy.html" class="btn-secondary">Read Privacy Policy</a>
+      </div>
+
+      <img src="assets/feature_graphic.png" alt="AeroSDR Pro Feature Graphic" class="hero-banner">
+    </section>
+
+    <!-- Key Features -->
+    <section id="features" class="features-section">
+      <div class="section-header">
+        <div class="badge">HARDWARE DSP ENGINE</div>
+        <h2>100% Offline Dual-Band RF Demodulation</h2>
+        <p>Direct Manchester symbol decoding and GMSK demodulation run locally on device CPU with zero cloud lag.</p>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <div class="card-icon">✈️</div>
+          <h3>1090 MHz ADS-B Flight Radar</h3>
+          <p>Real-time Mode-S 112-bit extended squitter decoding with CRC-24 parity verification. Displays ICAO 24-bit hex, callsign, altitude (ft), ground speed (kts), heading, and vertical velocity.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🚢</div>
+          <h3>161.975 & 162.025 MHz Marine AIS</h3>
+          <p>Dual-channel VHF marine transponder decoder for Class A and B vessels. Decodes MMSI, vessel name, ship type, destination, draught, speed over ground (SOG), and course over ground (COG).</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🌊</div>
+          <h3>Real-Time RF Waterfall Display</h3>
+          <p>60 FPS fast Fourier transform (FFT) spectrogram with peak dBFS measurement, tuner gain control (0–49.6 dB), AGC toggle, and ±150 PPM crystal frequency correction.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🎯</div>
+          <h3>Tactical Polar PPI Radar HUD</h3>
+          <p>High-contrast aviation phosphor radar screen with adjustable range rings (10 to 150 NM), heading track lines, target history trails, and emergency transponder squawk alerts (7500, 7600, 7700).</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🔌</div>
+          <h3>Plug-and-Play USB OTG Driver</h3>
+          <p>Native Android USB Host implementation supporting RTL2832U, R820T, R820T2, v4, HackRF One, and Airspy receivers with zero root requirements.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🔒</div>
+          <h3>Zero Data Collection & No Ads</h3>
+          <p>Raw RF I/Q streams are processed entirely in memory. No internet connection needed, no ads, no trackers, and no subscription fees forever.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Screenshots Showcase -->
+    <section id="screenshots" class="screenshots-section">
+      <div class="section-header">
+        <div class="badge">APP SHOWCASE</div>
+        <h2>AeroSDR Tactical Interface</h2>
+        <p>Engineered for pilots, sailors, radio amateurs, and defense professionals operating off-grid.</p>
+      </div>
+
+      <div class="screenshot-grid">
+        <div class="screenshot-card">
+          <img src="assets/01_AdsB_Avionics_Flight_Radar.png" alt="ADS-B Avionics Flight Radar">
+          <div class="caption">ADS-B Avionics Flight Radar</div>
+        </div>
+        <div class="screenshot-card">
+          <img src="assets/02_ModeS_Telemetry_Decoder.png" alt="Mode-S Telemetry Inspector">
+          <div class="caption">Mode-S Telemetry Inspector</div>
+        </div>
+        <div class="screenshot-card">
+          <img src="assets/03_Marine_AIS_Transponder_Radar.png" alt="Marine AIS Transponder Radar">
+          <div class="caption">Marine AIS Transponder Radar</div>
+        </div>
+        <div class="screenshot-card">
+          <img src="assets/04_RF_Waterfall_SDR_Hardware_Tuner.png" alt="RF Waterfall & SDR Tuner">
+          <div class="caption">RF Waterfall & SDR Tuner</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Specs -->
+    <section id="specs" class="specs-section">
+      <div class="section-header">
+        <div class="badge">TECHNICAL SPECIFICATIONS</div>
+        <h2>Architecture & Protocols</h2>
+      </div>
+
+      <table class="specs-table">
+        <tr>
+          <th>ADS-B Frequencies</th>
+          <td>1090 MHz (Mode-S extended squitter, 1 Mbps pulse-position modulation)</td>
+        </tr>
+        <tr>
+          <th>AIS Frequencies</th>
+          <td>161.975 MHz (AIS Ch 87B) & 162.025 MHz (AIS Ch 88B) GMSK 9600 bps</td>
+        </tr>
+        <tr>
+          <th>Supported Hardware</th>
+          <td>RTL-SDR v3/v4 (RTL2832U + R820T2), NooElec NESDR, HackRF One, Airspy Mini/HF+</td>
+        </tr>
+        <tr>
+          <th>Sample Rate</th>
+          <td>2.0 MSPS to 2.4 MSPS over USB 2.0 High Speed OTG</td>
+        </tr>
+        <tr>
+          <th>CRC Checking</th>
+          <td>Hardware-accelerated 24-bit polynomial CRC for error-free telemetry</td>
+        </tr>
+        <tr>
+          <th>Map & Coordinates</th>
+          <td>Compact offline polar PPI plotting & WGS-84 geodesic distance calculations</td>
+        </tr>
+        <tr>
+          <th>OS Compatibility</th>
+          <td>Android 8.0 (Oreo / API 26) through Android 16 (API 36)</td>
+        </tr>
+        <tr>
+          <th>Licensing</th>
+          <td>One-time purchase ($8.99). Zero in-app purchases. Zero subscriptions.</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Download CTA -->
+    <section id="download" class="download-section">
+      <div class="cta-box">
+        <h2>Equip Your Field Station Today</h2>
+        <p>Download AeroSDR Pro on Google Play and monitor skies and seas directly over the airwaves.</p>
+        <div class="cta-buttons">
+          <a href="#" class="btn-primary">
+            Download on Google Play ($8.99)
+          </a>
+          <a href="privacy.html" class="btn-secondary">
+            Privacy Policy
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 AeroSDR Pro Engineering Team. Built with native Kotlin & Jetpack Compose for Android.</p>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="#features">Features</a>
+      <a href="#specs">Specs</a>
+    </div>
+  </footer>
+
+</body>
+</html>
